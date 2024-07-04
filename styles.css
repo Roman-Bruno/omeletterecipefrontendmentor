@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+section{
+    background-color: white;
+    width: 56rem;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/* header, with image, h1 and P */
+
+img{
+    width: 50rem;
+    padding: auto;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.header{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.headerH1{
+    font-family: "Young Serif", serif;
+    margin-left: 3rem;
+    margin-top: 2.3rem;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 3rem;
+    color: #3d3b3c;
+}
+
+.headerParagraph{
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+/* PREPARATION TIME SECTION */
+
+.preparationTimeList{
+    width: 50rem;
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.prepTimeH3{
+    text-align: left;
+    margin-left: 1.55rem;
+    font-family: "Outfit", sans-serif;
+    color: #743951;
+    padding-top: 1.8rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.strong{
+    color: hsl(30, 10%, 34%);
+    font-weight: 900
+}
+
+li{
+    margin-left: 3.3rem;
+    text-align: left;
+    padding-top: 0.8rem;
+    padding-left: 0.6rem;
+    font-family: "Outfit", sans-serif;
+    color: black;
+}
+
+li::marker {
+    color: #743951; /* Cor da bolinha */
+}
+
+
+/* INGREDIENTS DIV */
+
+.ingredientsDiv{
+    width: 50rem;
+}
+
+.ingredientsH2, .instructionsH2, .nutritionH2{
+    color: #844a34;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 33px;
+    margin-bottom: 1rem;
+    font-family: "Young Serif", serif;
+}
+
+.ingredientsUL{
+    margin-left: 1.5rem;
+}
+
+.liIngredients::marker{
+    color: #844a34;
+}
+
+ul{
+    margin-bottom: 2rem;
+}
+
+hr{
+    width: 50rem;
+    text-align: center;
+    margin: auto;
+    border-color: hsl(32, 10%, 100%);
+}
+
+/* INSTRUCTIONS DIV */
+
+
+.instructionsH2{
+    margin-top: 2rem;
+}
+
+ol{
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    /* list-style: none; */
+}
+
+.olIngredients::marker{
+    color: #844a34;
+    font-weight: 700;
+    
+}
+
+.nutritionH2{
+    margin-top: 2rem;
+}
+
+.nutritionParagraph{
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+/* TABLE */
+
+
+.tableRows{
+    text-align: left;
+}
+
+tbody{
+    padding-right: 3rem;
+    font-family: "Outfit", sans-serif;
+}
+
+table{
+    border-bottom: #3d3b3c;
+    width: 35rem;
+    padding-left: 40px;
+}
+
+td{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem ;
+    color: #3d3b3c;
+}
+
+.tdFat{
+    padding-top: 0.5rem;
+}
+
+
+/* ELEMENTS */
+
+.calories277{
+    color: #844a34;
+    font-weight: 700;
+}
+
+.zero{
+    padding-right: 1.2rem;
+    color: #844a34;
+    font-weight: 700;
+}
+
+.twenty{
+    padding-right: 1.2rem;
+    color: #844a34;
+    font-weight: 700;
+}
+
+.twentyTwo{
+    padding-left: 1.5rem;
+    color: #844a34;
+    font-weight: 700;
+    padding-top: 0.5rem
+}
+
+
+/* endpage space */
+
+main{
+    margin-bottom: 8rem;
+}
+
+section{
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
