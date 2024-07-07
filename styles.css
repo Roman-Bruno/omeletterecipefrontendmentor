@@ -1,9 +1,9 @@
-/* Fonts */
+/* fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* Reset */
+/* reset */
 
 *,
 *::before,
@@ -23,23 +23,23 @@ img {
     max-width: 100%;
 }
 
-/* Colors */
+/* color page */
 
 :root {
-    --clr-nutmeg: hsl(14, 45%, 36%);
-    --clr-dark-raspberry: hsl(332, 51%, 32%);
-    --clr-white: hsl(0, 0%, 100%);
-    --clr-rose-white: hsl(330, 100%, 98%);
-    --clr-eggshell: hsl(30, 54%, 90%);
-    --clr-light-grey: hsl(30, 18%, 87%);
-    --clr-wenge-brown: hsl(30, 10%, 34%);
-    --clr-dark-charcoal: hsl(24, 5%, 18%);
+    --color-nutmeg: hsl(14, 45%, 36%);
+    --color-dark-raspberry: hsl(332, 51%, 32%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-rose-white: hsl(330, 100%, 98%);
+    --color-eggshell: hsl(30, 54%, 90%);
+    --color-light-grey: hsl(30, 18%, 87%);
+    --color-wenge-brown: hsl(30, 10%, 34%);
+    --color-dark-charcoal: hsl(24, 5%, 18%);
 }
 
-/* Styling */
+/* main-page */
 
 body {
-    background-color: var(--clr-eggshell);
+    background-color: var(--color-eggshell);
 }
 
 .container {
@@ -49,7 +49,7 @@ body {
     align-items: center;
 }
 
-.component {
+.pageComponent {
     background-color: var(--clr-white);
     width: 725px;
     border-radius: 25px;
@@ -57,26 +57,26 @@ body {
     color: var(--clr-wenge-brown);
 }
 
-.component .image {
+.pageComponent .image {
     padding: 40px 40px 0;
 }
 
-.component .text {
+.pageComponent .pageText {
     padding: 0 40px 40px;
 }
 
-.component .image img {
+.pageComponent .image img {
     border-radius: 15px;
 }
 
-.header h1 {
+.pageHeader h1 {
     font-family: "Young Serif", serif;
     font-size: 2.5rem;
     margin: 20px 0;
     color: var(--clr-dark-charcoal);
 }
 
-.header p {
+.pageHeader p {
     margin-bottom: 30px;
 }
 
@@ -94,20 +94,20 @@ span {
     font-weight: 700;
 }
 
-.prep-time {
+.preparation-time {
     background-color: var(--clr-rose-white);
     padding: 15px 25px;
     border-radius: 15px;
     line-height: 2;
 }
 
-.prep-time h2 {
+.preparation-time h2 {
     color: var(--clr-dark-raspberry);
     font-weight: 600;
     font-size: 1.3rem;
 }
 
-.prep-time li::marker {
+.preparation-time li::marker {
     color: var(--clr-dark-raspberry);
 }
 
@@ -167,28 +167,28 @@ td {
     font-weight: 700;
 }
 
-/* Mobile view */
+/* mediaquery-mobile */
 
 @media screen and (max-width: 750px) {
     body {
-        background-color: var(--clr-white);
+        background-color: var(--color-white);
     }
     
-    .component {
+    .pageComponent {
         width: 100%;
         height: 100%;
         border-radius: 0;
     }
 
-    .component .image {
+    .pageComponent .image {
         padding: 0;
     }
 
-    .component .image img {
+    .pageComponent .image img {
         border-radius: 0;
     }
 
-    .header h1 {
+    .pageHeader h1 {
         font-size: 2.2rem;
         line-height: 1;
         padding-top: 15px;
