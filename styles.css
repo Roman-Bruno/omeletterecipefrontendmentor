@@ -50,11 +50,11 @@ body {
 }
 
 .pageComponent {
-    background-color: var(--clr-white);
+    background-color: var(--color-white);
     width: 725px;
     border-radius: 25px;
     font-family: "Outfit", sans-serif;
-    color: var(--clr-wenge-brown);
+    color: var(--color-wenge-brown);
 }
 
 .pageComponent .image {
@@ -73,7 +73,7 @@ body {
     font-family: "Young Serif", serif;
     font-size: 2.5rem;
     margin: 20px 0;
-    color: var(--clr-dark-charcoal);
+    color: var(--color-dark-charcoal);
 }
 
 .pageHeader p {
@@ -95,32 +95,32 @@ span {
 }
 
 .preparation-time {
-    background-color: var(--clr-rose-white);
+    background-color: var(--color-rose-white);
     padding: 15px 25px;
     border-radius: 15px;
     line-height: 2;
 }
 
 .preparation-time h2 {
-    color: var(--clr-dark-raspberry);
+    color: var(--color-dark-raspberry);
     font-weight: 600;
     font-size: 1.3rem;
 }
 
 .preparation-time li::marker {
-    color: var(--clr-dark-raspberry);
+    color: var(--color-dark-raspberry);
 }
 
 .ingredients,
 .instructions {
     padding: 20px 0;
-    border-bottom: 1px solid var(--clr-light-grey);
+    border-bottom: 1px solid var(--color-light-grey);
 }
 
 .ingredients h2,
 .instructions h2,
 .nutrition h2 {
-    color: var(--clr-nutmeg);
+    color: var(--color-nutmeg);
     font-family: "Young Serif", serif;
     font-size: 1.8rem;
     padding-bottom: 10px;
@@ -133,7 +133,7 @@ span {
 
 .ingredients li::marker,
 .instructions li::marker {
-    color: var(--clr-nutmeg);
+    color: var(--color-nutmeg);
     font-weight: 700;
 }
 
@@ -152,7 +152,7 @@ span {
 
 th,
 td {
-    border-bottom: 1px solid var(--clr-light-grey);
+    border-bottom: 1px solid var(--color-light-grey);
     text-align: left;
     padding: 15px 30px;
 }
@@ -163,7 +163,7 @@ td.last-row {
 }
 
 td {
-    color: var(--clr-nutmeg);
+    color: var(--color-nutmeg);
     font-weight: 700;
 }
 
